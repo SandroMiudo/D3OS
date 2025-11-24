@@ -1,11 +1,8 @@
 #! /bin/sh
 
-ERROR_GLOB=1
-REMOTE_USER="sandro"
-REMOTE_HOST="192.168.0.217"
-REMOTE_DIR="/home/sandro/Desktop/OS/InfiniBand/D3OS"
-MOUNT_POINT="./mnt"
+# source dev-pc prior
 
+ERROR_GLOB=1
 RUN_NAME="$1"
 RUN_SCRIPT="$2"
 
